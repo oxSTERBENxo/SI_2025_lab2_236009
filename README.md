@@ -31,35 +31,35 @@ D = 8 → D + 1 = 9
 allItems = null  
 cardNumber = "1234567890123456"
 ```
-➡ Минува низ 52 и 53, фрла `allItems can’t be null!`
+Минува низ 52 и 53, фрла `allItems can’t be null!`
 
 ### Тест 2
 ```java
 allItems = [Item("", 1, 100, 0)]  
 cardNumber = "1234567890123456"
 ```
-➡ Минува низ 52–61, фрла `Invalid item!`
+Минува низ 52–61, фрла `Invalid item!`
 
 ### Тест 3
 ```java
 allItems = [Item("Laptop", 1, 500, 0.1)]  
 cardNumber = "12345678901234561111"
 ```
-➡ Минува низ 64–70 и 87, фрла `Invalid card number`
+Минува низ 64–70 и 87, фрла `Invalid card number`
 
 ### Тест 4
 ```java
 allItems = [Item("Book", 1, 100, 0)]  
 cardNumber = "1234abcd5678efgh"
 ```
-➡ Минува низ 72 и 76–82, фрла `Invalid character in card number!`
+Минува низ 72 и 76–82, фрла `Invalid character in card number!`
 
 ### Тест 5
 ```java
 allItems = [Item("Pen", 2, 50, 0)]  
 cardNumber = "1234567890123456"
 ```
-➡ Сè е валидно → се враќа сумата (влегува во `return sum`)
+Сè е валидно → се враќа сумата (влегува во `return sum`)
 
 ---
 
@@ -76,25 +76,25 @@ if (item.getPrice() > 300 || item.getDiscount() > 0 || item.getQuantity() > 10)
 ```java
 Item("A", 1, 400, 0)
 ```
-➡ `P=true, D=false, Q=false` → влегува во if
+`P=true, D=false, Q=false` → влегува во if
 
 #### Тест 2 – Само попуст
 ```java
 Item("B", 1, 100, 0.1)
 ```
-➡ `P=false, D=true, Q=false` → влегува во if
+`P=false, D=true, Q=false` → влегува во if
 
 #### Тест 3 – Само quantity > 10
 ```java
 Item("C", 11, 100, 0)
 ```
-➡ `P=false, D=false, Q=true` → влегува во if
+`P=false, D=false, Q=true` → влегува во if
 
 #### Тест 4 – Сите услови false
 ```java
 Item("D", 5, 100, 0)
 ```
-➡ `P=false, D=false, Q=false` → не влегува во if
+`P=false, D=false, Q=false` → не влегува во if
 
 ---
 

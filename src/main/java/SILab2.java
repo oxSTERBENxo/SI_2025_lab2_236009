@@ -2,7 +2,7 @@ import java.util.List;
 
 class Item {
     String name;
-    int quantity; //numerical
+    int quantity; 
     int price;
     double discount;
 

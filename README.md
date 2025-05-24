@@ -8,10 +8,10 @@
 28 - 21 + 2 = 9
 ```
 
-Исто така може да се пресмета и со формулата `D + 1`, каде `D` е бројот на одлучувачки јазли:
+Исто така може да се пресмета и со формулата `P + 1`, каде `P` е бројот на одлучувачки јазли:
 
 ```
-D = 8 → D + 1 = 9
+P = 8 → P + 1 = 9
 ```
 
 Одлучувачки јазли се на линиите: 52, 58, 60, 64, 68, 76, 79 и 81
@@ -20,11 +20,12 @@ D = 8 → D + 1 = 9
 
 ## Control Flow Graph (CFG)
 
-![Untitled Diagram drawio](https://github.com/user-attachments/assets/1a1ac384-13b8-4fac-a245-2b2c78e64284)
+![d drawio](https://github.com/user-attachments/assets/475922dd-53db-47c7-9d30-02fed3bef649)
+
 
 ---
 
-## ✅ Every Statement – тест случаи
+## Every Statement – тест случаи
 
 ### Тест 1
 ```java
